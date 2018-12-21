@@ -1,0 +1,15 @@
+package com.yihuschool.o2o.entity;
+
+public class Area {
+	// Id
+	private Integer areaId;
+	// 名称
+	private String areaName;
+	// 权重
+	private Integer priority;
+	// 创建时间
+	private Date creaTime;
+	// 更新时间
+	private Date lastEditTime;
+
+}

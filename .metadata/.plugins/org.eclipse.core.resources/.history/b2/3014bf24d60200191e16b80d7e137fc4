@@ -1,0 +1,16 @@
+package com.yihuschool.o2o.web.superadmin;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.yihuschool.o2o.service.AreaService;
+
+@Controller
+@RequestMapping("/superadmin")
+public class AreaController {
+	
+	private AreaService areaService;
+	private Map<String,Object> modelMap=new HashMap<String,Object>();
+	List<Area> list=new ArrayList<Area>();
+
+}

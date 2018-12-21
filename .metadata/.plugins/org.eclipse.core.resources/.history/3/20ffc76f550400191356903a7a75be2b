@@ -1,0 +1,5 @@
+package com.yihuschool.o2o.dto;
+
+public class ShopExecution {
+
+}

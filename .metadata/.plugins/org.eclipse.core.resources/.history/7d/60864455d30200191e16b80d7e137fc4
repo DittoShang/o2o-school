@@ -1,0 +1,6 @@
+package com.yihuschool.o2o.service;
+
+public interface AreaService {
+	List<Area> getAreaList();
+
+}

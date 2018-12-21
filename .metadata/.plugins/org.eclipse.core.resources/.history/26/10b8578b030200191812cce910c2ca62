@@ -1,0 +1,18 @@
+package com.yihuschool.o2o.entity;
+
+import java.util.Date;
+
+public class PersonInfo {
+	private Long userId;
+	private String name;
+	private String profileImg;
+	private String email;
+	private String gender;
+	private Integer enableStatus;
+	//1.customer 2.business 3.superadmin
+	private Integer userType;
+	private Date createTime;
+	private Date lastEditTime;
+	
+
+}

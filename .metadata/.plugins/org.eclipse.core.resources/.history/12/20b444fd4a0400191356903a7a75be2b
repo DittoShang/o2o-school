@@ -1,0 +1,6 @@
+package com.yihuschool.o2o.util;
+
+public class PathUtil {
+	private static String seperator = System.getProperty("file.separator");
+
+}

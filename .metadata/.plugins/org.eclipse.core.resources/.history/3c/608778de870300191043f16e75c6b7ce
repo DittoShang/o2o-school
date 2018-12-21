@@ -1,0 +1,6 @@
+package com.yihuschool.o2o.dao;
+
+public interface ShopDao {
+
+	int insertShop
+}

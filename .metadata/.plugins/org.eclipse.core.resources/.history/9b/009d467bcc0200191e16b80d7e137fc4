@@ -1,0 +1,5 @@
+package com.yihuschool.o2o;
+//配置spring 和junit整合 junit启动时加载springIOC容器
+public class BaseTest {
+
+}

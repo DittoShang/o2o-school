@@ -1,0 +1,17 @@
+package com.yihuschool.o2o.service.impl;
+
+import java.io.File;
+
+import com.yihuschool.o2o.dto.ShopExecution;
+import com.yihuschool.o2o.entity.Shop;
+import com.yihuschool.o2o.service.ShopService;
+
+public class ShopServiceImpl implements ShopService{
+
+	@Override
+	public ShopExecution addShop(Shop shop, File shopImg) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

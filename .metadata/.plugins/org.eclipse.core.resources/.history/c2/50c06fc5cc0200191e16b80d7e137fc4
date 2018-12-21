@@ -1,0 +1,11 @@
+package com.yihuschool.o2o.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.yihuschool.o2o.BaseTest;
+
+public class AreaDaoTest extends BaseTest {
+	@Autowired
+	private AreaDao areaDao;
+
+}

@@ -1,0 +1,16 @@
+package com.yihuschool.o2o.service.impl;
+
+import java.util.List;
+
+import com.yihuschool.o2o.entity.Area;
+import com.yihuschool.o2o.service.AreaService;
+
+public class AreaServiceImpl implements AreaService{
+
+	@Override
+	public List<Area> getAreaList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.yihuschool.o2o.exceptions;
+
+public class ShopOperationException {
+
+}

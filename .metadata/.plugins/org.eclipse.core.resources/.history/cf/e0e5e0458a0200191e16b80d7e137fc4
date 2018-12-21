@@ -1,0 +1,26 @@
+package com.yihuschool.o2o.entity;
+
+import java.util.Date;
+import java.util.List;
+
+public class Product {
+
+	private Long productId;
+	private String productName;
+	private String productDesc;
+	//simple img
+	private String imgAddr;
+	private String normalPrice;
+	private String promotionPrice;
+	private Integer priority;
+	private Date createTime;
+	private Date lastEditTime;
+	//-1.not available 0.out of stock(下架)1.in show
+	private Integer enableStatus;
+	private  List<ProductImg> productImgList;
+	private ProductCategory productCategory;
+	private Shop shop;
+	
+	
+	
+}

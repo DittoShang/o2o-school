@@ -1,0 +1,23 @@
+package com.yihuschool.o2o.service.impl;
+
+import java.io.File;
+
+import org.springframework.transaction.annotation.Transactional;
+
+import com.yihuschool.o2o.dto.ShopExecution;
+import com.yihuschool.o2o.entity.Shop;
+import com.yihuschool.o2o.enums.ShopStateEnum;
+import com.yihuschool.o2o.service.ShopService;
+
+public class ShopServiceImpl implements ShopService{
+
+	@Override
+	@Transactional
+	public ShopExecution addShop(Shop shop, File shopImg) {
+		if(shop==null) {
+			return new ShopExecution(ShopStateEnum.NULL_SHOP);
+		}
+		return null;
+	}
+
+}

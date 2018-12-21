@@ -1,0 +1,18 @@
+package com.yihuschool.o2o.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.yihuschool.o2o.BaseTest;
+import com.yihuschool.o2o.entity.Shop;
+
+public class ShopDaoTest extends BaseTest{
+	
+	@Autowired
+	private ShopDao shopDao;
+	
+	public void testInsertShop() {
+		Shop shop=new Shop();
+	}
+	
+
+}
