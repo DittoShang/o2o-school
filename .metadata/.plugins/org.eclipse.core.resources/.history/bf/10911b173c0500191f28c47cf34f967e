@@ -11,6 +11,5 @@ public class ShopAdminController {
 	@RequestMapping(value="shopoperation")
 	public String shopOperation() {
 		return "shop/shopoperation";
-		
 	}
 }
