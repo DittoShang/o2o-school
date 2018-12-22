@@ -1,0 +1,16 @@
+package com.yihuschool.o2o.service.impl;
+
+import java.util.List;
+
+import com.yihuschool.o2o.entity.ShopCategory;
+import com.yihuschool.o2o.service.ShopCategoryService;
+@Service
+public class ShopCategoryServiceImpl implements ShopCategoryService{
+
+	@Override
+	public List<ShopCategory> getShopCategoryList(ShopCategory shopCategoryCondition) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

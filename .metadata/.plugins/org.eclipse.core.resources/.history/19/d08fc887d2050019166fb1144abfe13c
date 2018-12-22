@@ -1,0 +1,7 @@
+package com.yihuschool.o2o.service.impl;
+
+import com.yihuschool.o2o.service.ShopCategoryService;
+
+public class ShopCategoryServiceImpl implements ShopCategoryService{
+
+}
