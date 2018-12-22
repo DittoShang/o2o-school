@@ -19,7 +19,7 @@
    		</init-param>
    		<!-- 字体颜色 -->
    		<init-param>
-   			<param-name>kaptcha.testproducer.font.color</param-name>
+   			<param-name>kaptcha.textproducer.font.color</param-name>
    			<param-value>red</param-value>
    		</init-param>
    		<!-- 图片宽度 -->
@@ -29,7 +29,7 @@
    		</init-param>
    		<!-- 使用哪些字符生成验证码 -->
    		<init-param>
-   			<param-name>kaptcha.testproducer.char.string</param-name>
+   			<param-name>kaptcha.textproducer.char.string</param-name>
    			<param-value>ACDEFHKPRSTWX345679</param-value>
    		</init-param>
    		<!-- 图片高度 -->
@@ -39,7 +39,7 @@
    		</init-param>
    		<!-- 字体大小 -->
    		<init-param>
-   			<param-name>kaptcha.testproducer.font.size</param-name>
+   			<param-name>kaptcha.textproducer.font.size</param-name>
    			<param-value>43</param-value>
    		</init-param>
    		<!-- 干扰线颜色 -->
@@ -49,15 +49,19 @@
    		</init-param>
    		<!-- 字符个数 -->
    		<init-param>
-   			<param-name>kaptcha.testproducer.cahr.length</param-name>
+   			<param-name>kaptcha.textproducer.cahr.length</param-name>
    			<param-value>4</param-value>
    		</init-param>
    		<!-- 字体 -->
    		<init-param>
-   			<param-name>kaptcha.testproducer.font.names</param-name>
+   			<param-name>kaptcha.textproducer.font.names</param-name>
    			<param-value>Arial</param-value>
    		</init-param>
    	</servlet>
+   	<servlet-mapping>
+   		<servlet-name>Kaptcha</servlet-name>
+   		<url-pattern>/Kaptcha</url-pattern>
+   	</servlet-mapping>
    
 	<!-- 配置DispatcherServlet -->
 	<servlet>
